@@ -1,3 +1,4 @@
+"use client"
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -5,8 +6,11 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import ResumeButton from "./ResumeButton";
 
 const Hero = () => {
-  return (
-    <div className="pb-20 pt-36">
+  return (    
+    <section id="home">
+
+    
+    <div className="pb-10 pt-36">
       {/**
        *  UI: Spotlights
        */}
@@ -71,6 +75,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

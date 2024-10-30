@@ -106,7 +106,7 @@
 
 @layer base {
   * {
-    @apply border-border !scroll-smooth;
+    @apply border-border scroll-smooth;
   }
 
   body {
@@ -116,6 +116,7 @@
   button {
     @apply active:outline-none;
   }
+  
 }
 
 @layer utilities {
